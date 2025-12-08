@@ -13,6 +13,8 @@ I should get **( )** out of 20 on this assignment.
 
 ## Self-Reflection
 
+Donald Durgan III
+
 - **How long it took me to finish this?**
 <!-- Answer below this line -->
 -

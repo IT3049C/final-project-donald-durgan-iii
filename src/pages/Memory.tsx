@@ -16,7 +16,6 @@ function createDeck(): Card[] {
     cards.push({ id: id++, value, matched: false });
     cards.push({ id: id++, value, matched: false });
   }
-  // shuffle
   return cards.sort(() => Math.random() - 0.5);
 }
 
@@ -81,7 +80,8 @@ export function Memory() {
       <h1>Memory Cards</h1>
       <p>Player: {name || "Guest"}</p>
 
-      <div className="memory-grid" aria-label="Memory cards">
+      {/* ✅ PATCH: Added role="grid" */}
+      <div className="memory-grid" aria-label="Memory cards" role="grid">
         {cards.map(card => {
           const isFlipped = flipped.includes(card.id) || card.matched;
           return (

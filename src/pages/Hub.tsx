@@ -4,6 +4,7 @@ import { PlayerNameForm } from "../components/PlayerNameForm";
 export function Hub() {
   return (
     <div className="page hub-page">
+      {/* Match the test expectation exactly */}
       <h1>Universal Game Hub</h1>
       <p>Developer: Donald Durgan III</p>
 

@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test("loads the landing page and lists available games", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: /echo arena game hub/i })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /Universal game hub/i })).toBeVisible();
   await expect(page.getByRole("link", { name: /rock paper scissors/i })).toBeVisible();
   await expect(page.getByRole("link", { name: /tic tac toe/i })).toBeVisible();
   await expect(page.getByRole("link", { name: /wordle/i })).toBeVisible();

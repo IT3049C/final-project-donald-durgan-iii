@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Game Hub" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - link "Rock Paper Scissors" [ref=e7] [cursor=pointer]:
+        - /url: /rps
+      - link "Tic Tac Toe" [ref=e8] [cursor=pointer]:
+        - /url: /tic-tac-toe
+      - link "Wordle" [ref=e9] [cursor=pointer]:
+        - /url: /wordle
+      - link "Memory" [ref=e10] [cursor=pointer]:
+        - /url: /memory
+    - generic "Player name display" [ref=e12]: "Player: Guest"
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - heading "Universal Game Hub" [level=1] [ref=e15]
+      - paragraph [ref=e16]: "Developer: Donald Durgan III"
+      - generic [ref=e17]:
+        - heading "Player Setup" [level=2] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Player name
+          - textbox "Player name" [ref=e21]:
+            - /placeholder: Enter your name
+      - generic [ref=e22]:
+        - heading "Available Games" [level=2] [ref=e23]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Rock Paper Scissors" [ref=e26] [cursor=pointer]:
+              - /url: /rps
+          - listitem [ref=e27]:
+            - link "Tic Tac Toe" [ref=e28] [cursor=pointer]:
+              - /url: /tic-tac-toe
+          - listitem [ref=e29]:
+            - link "Wordle" [ref=e30] [cursor=pointer]:
+              - /url: /wordle
+          - listitem [ref=e31]:
+            - link "Memory" [ref=e32] [cursor=pointer]:
+              - /url: /memory
+```

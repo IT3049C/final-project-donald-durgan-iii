@@ -20,17 +20,22 @@
       - heading "Rock Paper Scissors" [level=1] [ref=e15]
       - paragraph [ref=e16]: "Player: Guest"
       - generic [ref=e17]:
-        - paragraph [ref=e18]: "Choose your move:"
-        - generic [ref=e19]:
-          - button "Play rock" [ref=e20]: Rock
-          - button "Play paper" [ref=e21]: Paper
-          - button "Play scissors" [ref=e22]: Scissors
-      - generic [ref=e23]:
-        - paragraph [ref=e24]: "Player move: -"
-        - paragraph [ref=e25]: "CPU move: -"
-      - button "Reset game" [ref=e26]: Reset
-      - separator [ref=e27]
+        - heading "Multiplayer" [level=2] [ref=e18]
+        - button "Create Room" [active] [ref=e19]
+        - generic [ref=e20]:
+          - text: Room ID
+          - textbox "Room ID" [ref=e21]
+          - button "Join Room" [ref=e22]
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: "Room: room-zl66bt"
+          - generic [ref=e25]:
+            - heading "Players" [level=3] [ref=e26]
+            - generic [ref=e27]: Player
       - generic [ref=e28]:
-        - heading "Multiplayer (Room API placeholder)" [level=2] [ref=e29]
-        - paragraph [ref=e30]: This section is where you integrate the course room API for real multiplayer.
+        - heading "Make Your Move" [level=2] [ref=e29]
+        - button "Rock" [ref=e30]
+        - button "Paper" [ref=e31]
+        - button "Scissors" [ref=e32]
+        - generic [ref=e33]: Waiting for moves...
+      - separator [ref=e34]
 ```

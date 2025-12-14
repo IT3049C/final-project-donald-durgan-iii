@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
-import { Hub } from "./Pages/Hub";
-import { RockPaperScissors } from "./Pages/RockPaperScissors";
-import { TicTacToe } from "./Pages/TicTacToe";
-import { Wordle } from "./Pages/Wordle";
-import { Memory } from "./Pages/Memory";
+import { Hub } from "./pages/Hub";
+import { RockPaperScissors } from "./pages/RockPaperScissors";
+import { TicTacToe } from "./pages/TicTacToe";
+import { Wordle } from "./pages/Wordle";
+import { Memory } from "./pages/Memory";
 
 function App() {
   return (

@@ -27,7 +27,7 @@
           - textbox "Room ID" [ref=e21]
           - button "Join Room" [ref=e22]
         - generic [ref=e23]:
-          - paragraph [ref=e24]: "Room: room-0sez7x"
+          - paragraph [ref=e24]: "Room: room-310sx2"
           - generic [ref=e25]:
             - heading "Players" [level=3] [ref=e26]
             - generic [ref=e27]: Player

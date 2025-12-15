@@ -8,7 +8,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <PlayerProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/final-project-donald-durgan-iii">
         <App />
       </BrowserRouter>
     </PlayerProvider>
